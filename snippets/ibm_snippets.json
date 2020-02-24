@@ -43,7 +43,7 @@
         ],
         "description": "HTML5 template which includes v19a styles and required page structure."
     },
-    "v19a back-to-top": {
+    "Back-to-top Button": {
         "prefix": "!ibmbtt",
         "body": [
             "<script>",
@@ -54,9 +54,9 @@
             "\t});",
             "</script>"
         ],
-        "description": "v19a grid container"
+        "description": "v19a Back to top"
     },
-    "v19a basic grid": {
+    "v19a Basic grid": {
         "prefix": "!ibmgrd",
         "body": [
             "<div class=\"ibm-grid-container\">",
@@ -68,9 +68,9 @@
             "\t</div>",
             "</div>"
         ],
-        "description": "v19a grid container"
+        "description": "v19a Basic grid"
     },
-    "v19a basic seamless grid": {
+    "v19a seamless grid": {
         "prefix": "!ibmsgrd",
         "body": [
             "<div class=\"ibm-grid-container ibm-grid-seamless\">",
@@ -82,9 +82,9 @@
             "\t</div>",
             "</div>"
         ],
-        "description": "v19a grid seamless container"
+        "description": "v19a seamless grid"
     },
-    "v19a basic column": {
+    "v19a Column": {
         "prefix": "!ibmcol",
         "body": [
             "<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8\">",
@@ -93,7 +93,7 @@
         ],
         "description": "v19a grid seamless column"
     },
-    "v19a basic seamless column": {
+    "v19a Seamless column": {
         "prefix": "!ibmscol",
         "body": [
             "<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8 ibm-grid-col-seamless\">",
@@ -102,36 +102,36 @@
         ],
         "description": "v19a grid seamless column"
     },
-    "v19a anchor link": {
+    "Anchor link": {
         "prefix": "!ibmanch",
         "body": [
             "<p class=\"ibm-ind-link\"><a class=\"ibm-anchor-down-link\" href=\"#$1\">$2</a></p>"
         ],
         "description": "v19a grid anchor link"
     },
-    "v19a link": {
+    "Link": {
         "prefix": "!ibml",
         "body": [
             "<p class=\"ibm-ind-link\"><a class=\"ibm-forward-link\" href=\"\">${1:Link}</a></p>"
         ],
         "description": "v19a link"
     },
-    "v19a icon link": {
-        "prefix": "!ibmicol",
+    "Icon link": {
+        "prefix": "!ibmil",
         "body": [
             "<p class=\"ibm-ind-link\"><a class=\"ibm-${1:icon}-link\" href=\"\">${2:Link}</a></p>"
         ],
         "description": "v19a link"
     },
-    "v19a attachment link": {
+    "Attachment link": {
         "prefix": "!ibmatchl",
         "body": [
             "<p class=\"ibm-ind-link\"><a class=\"ibm-pdf-link\" href=\"\">${2:Text} (${3:Size} KB)</a></p>"
         ],
         "description": "v19a link"
     },
-    "v19a external link": {
-        "prefix": "!ibmexl",
+    "External link": {
+        "prefix": "!ibmel",
         "body": [
             "<p class=\"ibm-ind-link\">",
             "\t<a data-widget=\"leavingibm\" class=\"ibm-external-link\" href=\"//www.ibm.com/links/?url=//\" target=\"_blank\">${1:Text}</a>",
@@ -139,7 +139,7 @@
         ],
         "description": "v19a link"
     },
-    "v19a link list": {
+    "Link list": {
         "prefix": "!ibmlnklist",
         "body": [
             "<ul class=\"ibm-link-list\">",
@@ -149,7 +149,7 @@
         ],
         "description": "v19a link list"
     },
-    "v19a anchor link list": {
+    "Anchor link list": {
         "prefix": "!ibmanchlist",
         "body": [
             "<ul class=\"ibm-link-list\" data-widget=\"adjustanchorlinks\">",
@@ -159,7 +159,7 @@
         ],
         "description": "v19a anchor link list"
     },
-    "v19a blocklink": {
+    "Blocklink": {
         "prefix": "!ibmblink",
         "body": [
             "<a href=\"#${1:link}\" class=\"ibm-blocklink ibm-padding-content\">",
@@ -171,7 +171,7 @@
         ],
         "description": "v19a blocklink"
     },
-    "v19a breadcrumb": {
+    "Breadcrumb": {
         "prefix": "!ibmbc",
         "body": [
             "<nav role=\"navigation\" aria-label=\"Breadcrumb\">",
@@ -183,7 +183,7 @@
         ],
         "description": "v19a breadcrumb"
     },
-    "v19a tab navigation": {
+    "Tab navigation": {
         "prefix": "!ibmtnav",
         "body": [
             "<nav role=\"navigation\" aria-labelledby=\"ibm-pagetitle-h1\">",
@@ -201,7 +201,7 @@
         ],
         "description": "v19a tab navigation"
     },
-    "v19a dynamic tab navigation": {
+    "Dynamic tab navigation": {
         "prefix": "!ibmdtnav",
         "body": [
             "<div data-widget=\"dyntabs\" class=\"ibm-graphic-tabs\">",
@@ -221,21 +221,21 @@
         ],
         "description": "v19a tab navigation"
     },
-    "v19a primary button": {
+    "Primary button": {
         "prefix": "!ibmbp",
         "body": [
             "<p class=\"ibm-ind-link\"><a href=\"${2:link}\" class=\"ibm-btn-pri ibm-forward-link\">${1:Title}</a></p>"
         ],
         "description": "v19a primary button"
     },
-    "v19a secondary button": {
+    "Secondary button": {
         "prefix": "!ibmbs",
         "body": [
             "<p class=\"ibm-ind-link\"><a href=\"${2:link}\" class=\"ibm-btn-sec ibm-forward-link\">${1:Title}</a></p>"
         ],
         "description": "v19a secondary button"
     },
-    "v19a modal": {
+    "Modal": {
         "prefix": "!ibmmod",
         "body": [
             "<p class=\"ibm-ind-link\">",
@@ -247,7 +247,7 @@
         ],
         "description": "v19a modal"
     },
-    "v19a card": {
+    "Card": {
         "prefix": "!ibmc",
         "body": [
             "<div class=\"ibm-card\">",
@@ -263,7 +263,7 @@
         ],
         "description": "v19a card"
     },
-    "v19a leadspace": {
+    "Leadspace": {
         "prefix": "!ibmls",
         "body": [
             "<div id=\"ibm-leadspace-head\" class=\"ibm-alternate\" style=\"background: url() center / cover no-repeat;\">",
@@ -283,7 +283,7 @@
         ],
         "description": "v19a leadspace"
     },
-    "v19a pull quote": {
+    "Pull quote": {
         "prefix": "!ibmpq",
         "body": [
             "<div class=\"ibm-pull-quote\">",
@@ -295,7 +295,7 @@
         ],
         "description": "v19a pull quote"
     },
-    "v19a accordion show/hide": {
+    "Accordion show/hide": {
         "prefix": "!ibmac",
         "body": [
             "<div data-widget=\"showhide\" data-type=\"panel\" class=\"ibm-show-hide\">",
@@ -311,7 +311,7 @@
         ],
         "description": "v19a accordion show/hide"
     },
-    "v19a twisty show/hide": {
+    "Twisty show/hide": {
         "prefix": "!ibmtw",
         "body": [
             "<ul data-widget=\"twisty\" class=\"ibm-twisty\">",
@@ -331,14 +331,14 @@
         ],
         "description": "v19a twisty show/hide"
     },
-    "v19a youtube video": {
+    "Youtube video": {
         "prefix": "!ibmyv",
         "body": [
             "<div data-kaltura-fallbackid=\"${2:KalturaFallbackId}\" data-videoid=\"${1:YoutubeId}\" data-videotype=\"youtube\" data-widget=\"videoplayer\" id=\"\"><a href=\"//www.youtube.com/watch?v=${1:YoutubeId}\">Watch the video</a></div>"
         ],
         "description": "v19a youtube video"
     },
-    "v19a kaltura video": {
+    "Kaltura video": {
         "prefix": "!ibmyv",
         "body": [
             "<div id=\"\" data-widget=\"videoplayer\" data-videoid=\"${1:KalturaId}\" data-videotype=\"kaltura\">",

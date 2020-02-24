@@ -1,10 +1,10 @@
 {
     "name": "ibm-northstar-code-snippets",
-    "displayName": "Northstar v19a CDN Snippets",
+    "displayName": "IBM Snippets Beta",
     "description": "This will get you up and running to get a boilerplate for flat ibm webpages",
     "version": "0.0.1",
     "publisher": "Martin Kocisek",
-    "license": "SEE LICENSE IN LICENSE.md",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/Mikroten/ibm-standard-snippets"
