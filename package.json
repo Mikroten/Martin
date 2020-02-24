@@ -1,0 +1,31 @@
+{
+    "name": "ibm-northstar-code-snippets",
+    "displayName": "Northstar v19a CDN Snippets",
+    "description": "This will get you up and running to get a boilerplate for flat ibm webpages",
+    "version": "0.0.1",
+    "publisher": "eventyret",
+    "homepage": "",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/ibm_snippets.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "npm": "^6.13.4"
+    }
+}
