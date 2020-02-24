@@ -17,375 +17,334 @@
             "\t\t<link rel=\"preconnect\" href=\"//1.www.s81c.com\" />",
             "\t\t<link rel=\"stylesheet\" href=\"https://1.www.s81c.com/common/v18/css/www.css\">",
             "\t\t<link rel=\"stylesheet\" href=\"https://1.www.s81c.com/common/v19a/css/www.css\">",
-            "\t\t<script>digitalData = {",
-            "\t\t\t\"page\": {",
-            "\t\t\t\t\"category\": {",
-            "\t\t\t\t\t\"primaryCategory\": \"IBM_GlobalMarketing_IBMHomepage\"",
-            "\t\t\t\t},",
-            "\t\t\t\"pageInfo\": {",
-            "\t\t\t\t\"language\": \"en-GB\",",
-            "\t\t\t\t\"country\": \"GB\",",
-            "\t\t\t\t\"publisher\": \"IBM Corporation\",",
-            "\t\t\t\t\"version\": \"v19a\",",
-            "\t\t\t\t\"ibm\": {",
-            "\t\t\t\t\t\"contentDelivery\": \"Drupal 8\",",
-            "\t\t\t\t\t\"contentProducer\": \"1706871 - IBM.com Global Homepage\",",
-            "\t\t\t\t\t\"owner\": \"Joan Renner/Armonk/IBM\",",
-            "\t\t\t\t\t\"siteID\": \"IBM_GlobalMarketing\",",
-            "\t\t\t\t\t\"contactModuleConfiguration\": {",
-            "contactInformationBundleKey": {
-                "focusArea": "Miscellaneous - About IBM",
-                "languageCode": "en",
-                "regionCode": "GB"
-            },
-            "contactModuleTranslationKey": {
-                "languageCode": "en",
-                "regionCode": "GB"
-            }
-        },
-        "config": {
-            "masthead": {
-                "type": "default"
-            },
-            "footer": {
-                "type": "default"
-            }
-        }
+            "\t\t<script src=\"https://1.www.s81c.com/common/v18/js/www.js\"></script>",
+            "\t\t<script src=\"https://1.www.s81c.com/common/v19a/js/www.js\"></script>",
+            "\t\t<script src=\"https://1.www.s81c.com/common/stats/ida_stats.js\"></script>",
+            "\t\t<title>${1:Title}</title>",
+            "\t</head>",
+            "\t<body id=\"ibm-com\" class=\"ibm-type\">",
+            "\t\t<div id=\"ibm-top\" class=\"ibm-landing-page\">",
+            "\t\t\t<div id=\"ibm-content-wrapper\">",
+            "\t\t\t\t<main role=\"main\" aria-labelledby=\"ibm-pagetitle-h1\">",
+            "\t\t\t\t\t<div id=\"ibm-pcon\">",
+            "\t\t\t\t\t\t<div id=\"ibm-content\">",
+            "\t\t\t\t\t\t\t<div id=\"ibm-content-body\">",
+            "\t\t\t\t\t\t\t\t<div id=\"ibm-content-main\">",
+            "\t\t\t\t\t\t\t\t\t$0",
+            "\t\t\t\t\t\t\t\t</div>",
+            "\t\t\t\t\t\t\t</div>",
+            "\t\t\t\t\t\t</div>",
+            "\t\t\t\t\t</div>",
+            "\t\t\t\t</main>",
+            "\t\t\t</div>",
+            "\t\t</div>",
+            "\t</body>",
+            "</html>"
+        ],
+        "description": "HTML5 template which includes v19a styles and required page structure."
     },
-    "publishDate": "2020-02-14",
-    "effectiveDate": "2019-03-07",
-    "expiryDate": "2024-02-14"
-}
-}
-} < /script>"
-"\t\t<script src=\"https://1.www.s81c.com/common/v18/js/www.js\"></script>",
-"\t\t<script src=\"https://1.www.s81c.com/common/v19a/js/www.js\"></script>",
-"\t\t<script src=\"https://1.www.s81c.com/common/stats/ida_stats.js\"></script>",
-"\t\t<title>${1:Title}</title>",
-"\t</head>",
-"\t<body id=\"ibm-com\" class=\"ibm-type\">",
-"\t\t<div id=\"ibm-top\" class=\"ibm-landing-page\">",
-"\t\t\t<div id=\"ibm-content-wrapper\">",
-"\t\t\t\t<main role=\"main\" aria-labelledby=\"ibm-pagetitle-h1\">",
-"\t\t\t\t\t<div id=\"ibm-pcon\">",
-"\t\t\t\t\t\t<div id=\"ibm-content\">",
-"\t\t\t\t\t\t\t<div id=\"ibm-content-body\">",
-"\t\t\t\t\t\t\t\t<div id=\"ibm-content-main\">",
-"\t\t\t\t\t\t\t\t\t$0",
-"\t\t\t\t\t\t\t\t</div>",
-"\t\t\t\t\t\t\t</div>",
-"\t\t\t\t\t\t</div>",
-"\t\t\t\t\t</div>",
-"\t\t\t\t</main>",
-"\t\t\t</div>",
-"\t\t</div>",
-"\t</body>",
-"</html>"
-],
-"description": "HTML5 template which includes v19a styles and required page structure."
-},
-"v19a back-to-top": {
-    "prefix": "!ibmbtt",
-    "body": [
-        "<script>",
-        "\tIBMCore.common.util.config.set({",
-        "\t\tbacktotop: {",
-        "\t\t\tenabled: true",
-        "\t\t}",
-        "\t});",
-        "</script>",
-    ],
-    "description": "v19a grid container"
-},
-"v19a basic grid": {
-    "prefix": "!ibmgrd",
-    "body": [
-        "<div class=\"ibm-grid-container\">",
-        "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-8\">",
-        "\t\t$1",
-        "\t</div>",
-        "\t<div class=\"ibm-grid-col-sm-4-3 ibm-grid-col-lg-16-8\">",
-        "\t\t$2",
-        "\t</div>",
-        "</div>",
-    ],
-    "description": "v19a grid container"
-},
-"v19a basic seamless grid": {
-    "prefix": "!ibmsgrd",
-    "body": [
-        "<div class=\"ibm-grid-container ibm-grid-seamless\">",
-        "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-8\">",
-        "\t\t$1",
-        "\t</div>",
-        "\t<div class=\"ibm-grid-col-sm-4-3 ibm-grid-col-lg-16-8\">",
-        "\t\t$2",
-        "\t</div>",
-        "</div>",
-    ],
-    "description": "v19a grid seamless container"
-},
-"v19a basic column": {
-    "prefix": "!ibmcol",
-    "body": [
-        "<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8\">",
-        "\t$1",
-        "</div>",
-    ],
-    "description": "v19a grid seamless column"
-},
-"v19a basic seamless column": {
-    "prefix": "!ibmscol",
-    "body": [
-        "<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8 ibm-grid-col-seamless\">",
-        "\t$1",
-        "</div>",
-    ],
-    "description": "v19a grid seamless column"
-},
-"v19a anchor link": {
-    "prefix": "!ibmanch",
-    "body": [
-        "<p class=\"ibm-ind-link\"><a class=\"ibm-anchor-down-link\" href=\"#$1\">$2</a></p>",
-    ],
-    "description": "v19a grid anchor link"
-},
-"v19a link": {
-    "prefix": "!ibml",
-    "body": [
-        "<p class=\"ibm-ind-link\"><a class=\"ibm-forward-link\" href=\"\">${1:Link}</a></p>",
-    ],
-    "description": "v19a link"
-},
-"v19a icon link": {
-    "prefix": "!ibmicol",
-    "body": [
-        "<p class=\"ibm-ind-link\"><a class=\"ibm-${1:icon}-link\" href=\"\">${2:Link}</a></p>",
-    ],
-    "description": "v19a link"
-},
-"v19a attachment link": {
-    "prefix": "!ibmatchl",
-    "body": [
-        "<p class=\"ibm-ind-link\"><a class=\"ibm-pdf-link\" href=\"\">${2:Text} (${3:Size} KB)</a></p>",
-    ],
-    "description": "v19a link"
-},
-"v19a external link": {
-    "prefix": "!ibmexl",
-    "body": [
-        "<p class=\"ibm-ind-link\">",
-        "\t<a data-widget=\"leavingibm\" class=\"ibm-external-link\" href=\"//www.ibm.com/links/?url=//\" target=\"_blank\">${1:Text}</a>",
-        "</p>"
-    ],
-    "description": "v19a link"
-},
-"v19a link list": {
-    "prefix": "!ibmlnklist",
-    "body": [
-        "<ul class=\"ibm-link-list\">",
-        "\t<li><a class=\"ibm-forward-link\" href=\"#\">${1:Text}</a></li>",
-        "\t<li><a class=\"ibm-forward-link\" href=\"#\">${2:Text}</a></li>",
-        "</ul>"
-    ],
-    "description": "v19a link list"
-},
-"v19a anchor link list": {
-    "prefix": "!ibmanchlist",
-    "body": [
-        "<ul class=\"ibm-link-list\" data-widget=\"adjustanchorlinks\">",
-        "\t<li><a class=\"ibm-anchor-down-link\" href=\"#$1\">$2</a></li>",
-        "\t<li><a class=\"ibm-anchor-down-link\" href=\"#$3\">$4</a></li>",
-        "</ul>"
-    ],
-    "description": "v19a anchor link list"
-},
-"v19a blocklink": {
-    "prefix": "!ibmblink",
-    "body": [
-        "<a href=\"#${1:link}\" class=\"ibm-blocklink ibm-padding-content\">",
-        "\t<p class=\"ibm-icon-nolink ibm-textcolor-default ibm-pb-0\">",
-        "\t\t<span class=\"ibm-forward-link ibm-linkcolor-default\">${2:Title}</span><br />",
-        "\t\t${3:Copy}",
-        "\t</p>",
-        "</a>"
-    ],
-    "description": "v19a blocklink"
-},
-"v19a breadcrumb": {
-    "prefix": "!ibmbc",
-    "body": [
-        "<nav role=\"navigation\" aria-label=\"Breadcrumb\">",
-        "\t<ul class=\"ibm-padding-top-1 ibm-pb-0\" id=\"ibm-navigation-trail\" itemscope=\"\" itemtype=\"//schema.org/BreadcrumbList\">",
-        "\t\t<li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"//schema.org/ListItem\"><a itemprop=\"item\" href=\"javascript:;\"><span itemprop=\"name\">${1:Breadcrumb}</span></a><meta itemprop=\"position\" content=\"1\"></li>",
-        "\t\t<li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"//schema.org/ListItem\"><a itemprop=\"item\" href=\"javascript:;\"><span itemprop=\"name\">${2:Breadcrumb 2}</span></a><meta itemprop=\"position\" content=\"2\"></li>",
-        "\t</ul>",
-        "</nav>"
-    ],
-    "description": "v19a breadcrumb"
-},
-"v19a tab navigation": {
-    "prefix": "!ibmtnav",
-    "body": [
-        "<nav role=\"navigation\" aria-labelledby=\"ibm-pagetitle-h1\">",
-        "\t<div id=\"ibm-content-nav\">",
-        "\t\t<div id=\"ibm-primary-tabs\">",
-        "\t\t\t<ul class=\"ibm-tabs\" role=\"tablist\">",
-        "\t\t\t\t<li role=\"presentation\"><a aria-selected=\"true\" role=\"tab\" href=\"\">${1:TabTitle}</a></li>",
-        "\t\t\t\t<li role=\"presentation\"><a role=\"tab\" href=\"\">${2:TabTitle}</a></li>",
-        "\t\t\t\t<li role=\"presentation\"><a role=\"tab\" href=\"\">${3:TabTitle}</a></li>",
-        "\t\t\t\t<li role=\"presentation\"><a role=\"tab\" href=\"\">${4:TabTitle}</a></li>",
-        "\t\t\t</ul>",
-        "\t\t</div>",
-        "\t</div>",
-        "</nav>"
-    ],
-    "description": "v19a tab navigation"
-},
-"v19a dynamic tab navigation": {
-    "prefix": "!ibmdtnav",
-    "body": [
-        "<div data-widget=\"dyntabs\" class=\"ibm-graphic-tabs\">",
-        "\t$BLOCK_COMMENT_START Tabs here: $BLOCK_COMMENT_END",
-        "\t<div class=\"ibm-tab-section\">",
-        "\t\t<ul class=\"ibm-tabs\" role=\"tablist\">",
-        "\t\t\t<li><a aria-selected=\"true\" role=\"tab\" href=\"#${1:TabId}\">${3:TabTitle}</a></li>",
-        "\t\t\t<li><a role=\"tab\" href=\"#${2:TabId}\">${4:TabTitle}</a></li>",
-        "\t\t</ul>",
-        "\t</div>",
-        "\t$BLOCK_COMMENT_START Tabs content body with tab contents divs inside: $BLOCK_COMMENT_END",
-        "\t<div class=\"ibm-container-body\">",
-        "\t\t<div id=\"#${1:TabId}\" class=\"ibm-tabs-content\">${5:TabCopy}</div>",
-        "\t\t<div id=\"${2:TabId}\" class=\"ibm-tabs-content\">${6:TabCopy}</div>",
-        "\t</div>",
-        "</div>"
-    ],
-    "description": "v19a tab navigation"
-},
-"v19a primary button": {
-    "prefix": "!ibmbp",
-    "body": [
-        "<p class=\"ibm-ind-link\"><a href=\"${2:link}\" class=\"ibm-btn-pri ibm-forward-link\">${1:Title}</a></p>",
-    ],
-    "description": "v19a primary button"
-},
-"v19a secondary button": {
-    "prefix": "!ibmbs",
-    "body": [
-        "<p class=\"ibm-ind-link\"><a href=\"${2:link}\" class=\"ibm-btn-sec ibm-forward-link\">${1:Title}</a></p>",
-    ],
-    "description": "v19a secondary button"
-},
-"v19a modal": {
-    "prefix": "!ibmmod",
-    "body": [
-        "<p class=\"ibm-ind-link\">",
-        "\t<a href=\"#\" class=\"ibm-popup-link\" onclick=\"IBMCore.common.widget.overlay.show('${1:overlayId}'); return false;\">${2:LinkText}</a>",
-        "</p>",
-        "<div class=\"ibm-common-overlay ibm-overlay-alt\" data-widget=\"overlay\" id=\"${1:overlayId}\">",
-        "\t<p>${3:OverlayCopy}</p>",
-        "</div>",
-    ],
-    "description": "v19a modal"
-},
-"v19a card": {
-    "prefix": "!ibmc",
-    "body": [
-        "<div class=\"ibm-card\">",
-        "\t<div class=\"ibm-card__image\">",
-        "\t\t<img src=\"\" alt=\"Card example\" width=\"300\" height=\"170\" class=\"ibm-resize\"></div>",
-        "\t<div class=\"ibm-card__content\">",
-        "\t<h3 class=\"ibm-h3\">${1:Title}</h3>",
-        "\t<p>${2:Copy}</p>",
-        "\t<p class=\"ibm-ind-link\">",
-        "\t\t<a href=\"\" class=\"ibm-forward-link\">${3:Link}</a></p>",
-        "\t</div>",
-        "</div>",
-    ],
-    "description": "v19a card"
-},
-"v19a leadspace": {
-    "prefix": "!ibmls",
-    "body": [
-        "<div id=\"ibm-leadspace-head\" class=\"ibm-alternate\" style=\"background: url() center / cover no-repeat;\">",
-        "\t<div id=\"ibm-leadspace-body\" class=\"ibm-padding-top-r2 ibm-padding-bottom-r2\">",
-        "\t\t<div class=\"ibm-grid-container ibm-alternate-background\">",
-        "\t\t\t<div class=\"ibm-grid-col-sm-4-4\">",
-        "\t\t\t\t<h1 class=\"ibm-h1 ibm-medium\">${1:Headline}</h1>",
-        "\t\t\t\t<h4 class=\"ibm-h4 ibm-padding-bottom-2\">${2:Subheadline}</h4>",
-        "\t\t\t\t<p class=\"ibm-button-link ibm-btn-row\">",
-        "\t\t\t\t\t<a href=\"\" class=\"ibm-btn-pri ibm-btn-white\">${3:PriBtnText}</a>",
-        "\t\t\t\t\t<a href=\"\" class=\"ibm-btn-sec ibm-btn-white\">${3:PriBtnText}</a>",
-        "\t\t\t\t</p>",
-        "\t\t\t</div>",
-        "\t\t</div>",
-        "\t</div>",
-        "</div>",
-    ],
-    "description": "v19a leadspace"
-},
-"v19a pull quote": {
-    "prefix": "!ibmpq",
-    "body": [
-        "<div class=\"ibm-pull-quote\">",
-        "\t<blockquote>",
-        "\t\t<p><em><span class=\"ibm-pullquote-open\">“</span>${1:PullQuoteText}<span class=\"ibm-pullquote-close\">”</span></em></p>",
-        "\t\t<p class=\"ibm-pullquote-source\">${2:PullQuoteSource}</p>",
-        "\t</blockquote>",
-        "</div>",
-    ],
-    "description": "v19a pull quote"
-},
-"v19a accordion show/hide": {
-    "prefix": "!ibmac",
-    "body": [
-        "<div data-widget=\"showhide\" data-type=\"panel\" class=\"ibm-show-hide\">",
-        "\t<h2>${1:AccordionTitle}</h2>",
-        "\t<div class=\"ibm-container-body\">",
-        "\t\t<p>${2:AccordionCopy}</p>",
-        "\t</div>",
-        "\t<h2>${3:AccordionTitle}</h2>",
-        "\t<div class=\"ibm-container-body\">",
-        "\t\t<p>${4:AccordionCopy}</p>",
-        "\t</div>",
-        "</div>",
-    ],
-    "description": "v19a accordion show/hide"
-},
-"v19a twisty show/hide": {
-    "prefix": "!ibmtw",
-    "body": [
-        "<ul data-widget=\"twisty\" class=\"ibm-twisty\">",
-        "\t<li>",
-        "\t\t<span class=\"ibm-twisty-head\"><strong>${1:TwistyTitle}</strong></span>",
-        "\t\t<div class=\"ibm-twisty-body\">",
-        "\t\t\t<p>${2:TwistyCopy}</p>",
-        "\t\t</div>",
-        "\t</li>",
-        "\t<li>",
-        "\t\t<span class=\"ibm-twisty-head\"><strong>${1:TwistyTitle}</strong></span>",
-        "\t\t<div class=\"ibm-twisty-body\">",
-        "\t\t\t<p>${2:TwistyCopy}</p>",
-        "\t\t</div>",
-        "\t</li>",
-        "</ul>",
-    ],
-    "description": "v19a twisty show/hide"
-},
-"v19a youtube video": {
-    "prefix": "!ibmyv",
-    "body": [
-        "<div data-kaltura-fallbackid=\"${2:KalturaFallbackId}\" data-videoid=\"${1:YoutubeId}\" data-videotype=\"youtube\" data-widget=\"videoplayer\" id=\"\"><a href=\"//www.youtube.com/watch?v=${1:YoutubeId}\">Watch the video</a></div>",
-    ],
-    "description": "v19a youtube video"
-},
-"v19a kaltura video": {
-    "prefix": "!ibmyv",
-    "body": [
-        "<div id=\"\" data-widget=\"videoplayer\" data-videoid=\"${1:KalturaId}\" data-videotype=\"kaltura\">",
-        "\t<a href=\"\">Watch the video</a>",
-        "</div>"
-    ],
-    "description": "v19a kaltura video"
-},
+    "v19a back-to-top": {
+        "prefix": "!ibmbtt",
+        "body": [
+            "<script>",
+            "\tIBMCore.common.util.config.set({",
+            "\t\tbacktotop: {",
+            "\t\t\tenabled: true",
+            "\t\t}",
+            "\t});",
+            "</script>"
+        ],
+        "description": "v19a grid container"
+    },
+    "v19a basic grid": {
+        "prefix": "!ibmgrd",
+        "body": [
+            "<div class=\"ibm-grid-container\">",
+            "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-8\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-grid-col-sm-4-3 ibm-grid-col-lg-16-8\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a grid container"
+    },
+    "v19a basic seamless grid": {
+        "prefix": "!ibmsgrd",
+        "body": [
+            "<div class=\"ibm-grid-container ibm-grid-seamless\">",
+            "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-8\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-grid-col-sm-4-3 ibm-grid-col-lg-16-8\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a grid seamless container"
+    },
+    "v19a basic column": {
+        "prefix": "!ibmcol",
+        "body": [
+            "<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8\">",
+            "\t$1",
+            "</div>"
+        ],
+        "description": "v19a grid seamless column"
+    },
+    "v19a basic seamless column": {
+        "prefix": "!ibmscol",
+        "body": [
+            "<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8 ibm-grid-col-seamless\">",
+            "\t$1",
+            "</div>"
+        ],
+        "description": "v19a grid seamless column"
+    },
+    "v19a anchor link": {
+        "prefix": "!ibmanch",
+        "body": [
+            "<p class=\"ibm-ind-link\"><a class=\"ibm-anchor-down-link\" href=\"#$1\">$2</a></p>"
+        ],
+        "description": "v19a grid anchor link"
+    },
+    "v19a link": {
+        "prefix": "!ibml",
+        "body": [
+            "<p class=\"ibm-ind-link\"><a class=\"ibm-forward-link\" href=\"\">${1:Link}</a></p>"
+        ],
+        "description": "v19a link"
+    },
+    "v19a icon link": {
+        "prefix": "!ibmicol",
+        "body": [
+            "<p class=\"ibm-ind-link\"><a class=\"ibm-${1:icon}-link\" href=\"\">${2:Link}</a></p>"
+        ],
+        "description": "v19a link"
+    },
+    "v19a attachment link": {
+        "prefix": "!ibmatchl",
+        "body": [
+            "<p class=\"ibm-ind-link\"><a class=\"ibm-pdf-link\" href=\"\">${2:Text} (${3:Size} KB)</a></p>"
+        ],
+        "description": "v19a link"
+    },
+    "v19a external link": {
+        "prefix": "!ibmexl",
+        "body": [
+            "<p class=\"ibm-ind-link\">",
+            "\t<a data-widget=\"leavingibm\" class=\"ibm-external-link\" href=\"//www.ibm.com/links/?url=//\" target=\"_blank\">${1:Text}</a>",
+            "</p>"
+        ],
+        "description": "v19a link"
+    },
+    "v19a link list": {
+        "prefix": "!ibmlnklist",
+        "body": [
+            "<ul class=\"ibm-link-list\">",
+            "\t<li><a class=\"ibm-forward-link\" href=\"#\">${1:Text}</a></li>",
+            "\t<li><a class=\"ibm-forward-link\" href=\"#\">${2:Text}</a></li>",
+            "</ul>"
+        ],
+        "description": "v19a link list"
+    },
+    "v19a anchor link list": {
+        "prefix": "!ibmanchlist",
+        "body": [
+            "<ul class=\"ibm-link-list\" data-widget=\"adjustanchorlinks\">",
+            "\t<li><a class=\"ibm-anchor-down-link\" href=\"#$1\">$2</a></li>",
+            "\t<li><a class=\"ibm-anchor-down-link\" href=\"#$3\">$4</a></li>",
+            "</ul>"
+        ],
+        "description": "v19a anchor link list"
+    },
+    "v19a blocklink": {
+        "prefix": "!ibmblink",
+        "body": [
+            "<a href=\"#${1:link}\" class=\"ibm-blocklink ibm-padding-content\">",
+            "\t<p class=\"ibm-icon-nolink ibm-textcolor-default ibm-pb-0\">",
+            "\t\t<span class=\"ibm-forward-link ibm-linkcolor-default\">${2:Title}</span><br />",
+            "\t\t${3:Copy}",
+            "\t</p>",
+            "</a>"
+        ],
+        "description": "v19a blocklink"
+    },
+    "v19a breadcrumb": {
+        "prefix": "!ibmbc",
+        "body": [
+            "<nav role=\"navigation\" aria-label=\"Breadcrumb\">",
+            "\t<ul class=\"ibm-padding-top-1 ibm-pb-0\" id=\"ibm-navigation-trail\" itemscope=\"\" itemtype=\"//schema.org/BreadcrumbList\">",
+            "\t\t<li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"//schema.org/ListItem\"><a itemprop=\"item\" href=\"javascript:;\"><span itemprop=\"name\">${1:Breadcrumb}</span></a><meta itemprop=\"position\" content=\"1\"></li>",
+            "\t\t<li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"//schema.org/ListItem\"><a itemprop=\"item\" href=\"javascript:;\"><span itemprop=\"name\">${2:Breadcrumb 2}</span></a><meta itemprop=\"position\" content=\"2\"></li>",
+            "\t</ul>",
+            "</nav>"
+        ],
+        "description": "v19a breadcrumb"
+    },
+    "v19a tab navigation": {
+        "prefix": "!ibmtnav",
+        "body": [
+            "<nav role=\"navigation\" aria-labelledby=\"ibm-pagetitle-h1\">",
+            "\t<div id=\"ibm-content-nav\">",
+            "\t\t<div id=\"ibm-primary-tabs\">",
+            "\t\t\t<ul class=\"ibm-tabs\" role=\"tablist\">",
+            "\t\t\t\t<li role=\"presentation\"><a aria-selected=\"true\" role=\"tab\" href=\"\">${1:TabTitle}</a></li>",
+            "\t\t\t\t<li role=\"presentation\"><a role=\"tab\" href=\"\">${2:TabTitle}</a></li>",
+            "\t\t\t\t<li role=\"presentation\"><a role=\"tab\" href=\"\">${3:TabTitle}</a></li>",
+            "\t\t\t\t<li role=\"presentation\"><a role=\"tab\" href=\"\">${4:TabTitle}</a></li>",
+            "\t\t\t</ul>",
+            "\t\t</div>",
+            "\t</div>",
+            "</nav>"
+        ],
+        "description": "v19a tab navigation"
+    },
+    "v19a dynamic tab navigation": {
+        "prefix": "!ibmdtnav",
+        "body": [
+            "<div data-widget=\"dyntabs\" class=\"ibm-graphic-tabs\">",
+            "\t$BLOCK_COMMENT_START Tabs here: $BLOCK_COMMENT_END",
+            "\t<div class=\"ibm-tab-section\">",
+            "\t\t<ul class=\"ibm-tabs\" role=\"tablist\">",
+            "\t\t\t<li><a aria-selected=\"true\" role=\"tab\" href=\"#${1:TabId}\">${3:TabTitle}</a></li>",
+            "\t\t\t<li><a role=\"tab\" href=\"#${2:TabId}\">${4:TabTitle}</a></li>",
+            "\t\t</ul>",
+            "\t</div>",
+            "\t$BLOCK_COMMENT_START Tabs content body with tab contents divs inside: $BLOCK_COMMENT_END",
+            "\t<div class=\"ibm-container-body\">",
+            "\t\t<div id=\"#${1:TabId}\" class=\"ibm-tabs-content\">${5:TabCopy}</div>",
+            "\t\t<div id=\"${2:TabId}\" class=\"ibm-tabs-content\">${6:TabCopy}</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a tab navigation"
+    },
+    "v19a primary button": {
+        "prefix": "!ibmbp",
+        "body": [
+            "<p class=\"ibm-ind-link\"><a href=\"${2:link}\" class=\"ibm-btn-pri ibm-forward-link\">${1:Title}</a></p>"
+        ],
+        "description": "v19a primary button"
+    },
+    "v19a secondary button": {
+        "prefix": "!ibmbs",
+        "body": [
+            "<p class=\"ibm-ind-link\"><a href=\"${2:link}\" class=\"ibm-btn-sec ibm-forward-link\">${1:Title}</a></p>"
+        ],
+        "description": "v19a secondary button"
+    },
+    "v19a modal": {
+        "prefix": "!ibmmod",
+        "body": [
+            "<p class=\"ibm-ind-link\">",
+            "\t<a href=\"#\" class=\"ibm-popup-link\" onclick=\"IBMCore.common.widget.overlay.show('${1:overlayId}'); return false;\">${2:LinkText}</a>",
+            "</p>",
+            "<div class=\"ibm-common-overlay ibm-overlay-alt\" data-widget=\"overlay\" id=\"${1:overlayId}\">",
+            "\t<p>${3:OverlayCopy}</p>",
+            "</div>"
+        ],
+        "description": "v19a modal"
+    },
+    "v19a card": {
+        "prefix": "!ibmc",
+        "body": [
+            "<div class=\"ibm-card\">",
+            "\t<div class=\"ibm-card__image\">",
+            "\t\t<img src=\"\" alt=\"Card example\" width=\"300\" height=\"170\" class=\"ibm-resize\"></div>",
+            "\t<div class=\"ibm-card__content\">",
+            "\t<h3 class=\"ibm-h3\">${1:Title}</h3>",
+            "\t<p>${2:Copy}</p>",
+            "\t<p class=\"ibm-ind-link\">",
+            "\t\t<a href=\"\" class=\"ibm-forward-link\">${3:Link}</a></p>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a card"
+    },
+    "v19a leadspace": {
+        "prefix": "!ibmls",
+        "body": [
+            "<div id=\"ibm-leadspace-head\" class=\"ibm-alternate\" style=\"background: url() center / cover no-repeat;\">",
+            "\t<div id=\"ibm-leadspace-body\" class=\"ibm-padding-top-r2 ibm-padding-bottom-r2\">",
+            "\t\t<div class=\"ibm-grid-container ibm-alternate-background\">",
+            "\t\t\t<div class=\"ibm-grid-col-sm-4-4\">",
+            "\t\t\t\t<h1 class=\"ibm-h1 ibm-medium\">${1:Headline}</h1>",
+            "\t\t\t\t<h4 class=\"ibm-h4 ibm-padding-bottom-2\">${2:Subheadline}</h4>",
+            "\t\t\t\t<p class=\"ibm-button-link ibm-btn-row\">",
+            "\t\t\t\t\t<a href=\"\" class=\"ibm-btn-pri ibm-btn-white\">${3:PriBtnText}</a>",
+            "\t\t\t\t\t<a href=\"\" class=\"ibm-btn-sec ibm-btn-white\">${3:PriBtnText}</a>",
+            "\t\t\t\t</p>",
+            "\t\t\t</div>",
+            "\t\t</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a leadspace"
+    },
+    "v19a pull quote": {
+        "prefix": "!ibmpq",
+        "body": [
+            "<div class=\"ibm-pull-quote\">",
+            "\t<blockquote>",
+            "\t\t<p><em><span class=\"ibm-pullquote-open\">“</span>${1:PullQuoteText}<span class=\"ibm-pullquote-close\">”</span></em></p>",
+            "\t\t<p class=\"ibm-pullquote-source\">${2:PullQuoteSource}</p>",
+            "\t</blockquote>",
+            "</div>"
+        ],
+        "description": "v19a pull quote"
+    },
+    "v19a accordion show/hide": {
+        "prefix": "!ibmac",
+        "body": [
+            "<div data-widget=\"showhide\" data-type=\"panel\" class=\"ibm-show-hide\">",
+            "\t<h2>${1:AccordionTitle}</h2>",
+            "\t<div class=\"ibm-container-body\">",
+            "\t\t<p>${2:AccordionCopy}</p>",
+            "\t</div>",
+            "\t<h2>${3:AccordionTitle}</h2>",
+            "\t<div class=\"ibm-container-body\">",
+            "\t\t<p>${4:AccordionCopy}</p>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a accordion show/hide"
+    },
+    "v19a twisty show/hide": {
+        "prefix": "!ibmtw",
+        "body": [
+            "<ul data-widget=\"twisty\" class=\"ibm-twisty\">",
+            "\t<li>",
+            "\t\t<span class=\"ibm-twisty-head\"><strong>${1:TwistyTitle}</strong></span>",
+            "\t\t<div class=\"ibm-twisty-body\">",
+            "\t\t\t<p>${2:TwistyCopy}</p>",
+            "\t\t</div>",
+            "\t</li>",
+            "\t<li>",
+            "\t\t<span class=\"ibm-twisty-head\"><strong>${1:TwistyTitle}</strong></span>",
+            "\t\t<div class=\"ibm-twisty-body\">",
+            "\t\t\t<p>${2:TwistyCopy}</p>",
+            "\t\t</div>",
+            "\t</li>",
+            "</ul>"
+        ],
+        "description": "v19a twisty show/hide"
+    },
+    "v19a youtube video": {
+        "prefix": "!ibmyv",
+        "body": [
+            "<div data-kaltura-fallbackid=\"${2:KalturaFallbackId}\" data-videoid=\"${1:YoutubeId}\" data-videotype=\"youtube\" data-widget=\"videoplayer\" id=\"\"><a href=\"//www.youtube.com/watch?v=${1:YoutubeId}\">Watch the video</a></div>"
+        ],
+        "description": "v19a youtube video"
+    },
+    "v19a kaltura video": {
+        "prefix": "!ibmyv",
+        "body": [
+            "<div id=\"\" data-widget=\"videoplayer\" data-videoid=\"${1:KalturaId}\" data-videotype=\"kaltura\">",
+            "\t<a href=\"\">Watch the video</a>",
+            "</div>"
+        ],
+        "description": "v19a kaltura video"
+    }
 }
