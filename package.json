@@ -1,13 +1,13 @@
 {
-    "name": "ibm-northstar-code-snippets",
-    "displayName": "IBM Snippets Beta",
-    "description": "This will get you up and running to get a boilerplate for flat ibm webpages",
-    "version": "0.0.1",
-    "publisher": "Martin Kocisek",
+    "name": "ibm-digital-design-code-snippets",
+    "displayName": "IBM Digital Design Snippets",
+    "description": "Snippets for IBM Digital Design",
+    "version": "1.2.5",
+    "publisher": "MartinKocisek",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Mikroten/ibm-standard-snippets"
+        "url": "https://github.ibm.com/Martin-Kocisek1/ibm-standard-snippets/"
     },
     "engines": {
         "vscode": "^1.20.0"

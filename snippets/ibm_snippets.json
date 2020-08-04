@@ -1,9 +1,9 @@
 {
-    "v19a HTML layout": {
+    "v18 HTML layout": {
         "prefix": "!ibm",
         "body": [
             "<!DOCTYPE html>",
-            "<html lang=\"en\">",
+            "<html lang=\"LC\">",
             "\t<head>",
             "\t\t<meta charset=\"UTF-8\">",
             "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
@@ -16,10 +16,50 @@
             "\t\t<link rel=\"dns-prefetch\" href=\"//1.www.s81c.com\" />",
             "\t\t<link rel=\"preconnect\" href=\"//1.www.s81c.com\" />",
             "\t\t<link rel=\"stylesheet\" href=\"https://1.www.s81c.com/common/v18/css/www.css\">",
-            "\t\t<link rel=\"stylesheet\" href=\"https://1.www.s81c.com/common/v19a/css/www.css\">",
             "\t\t<script src=\"https://1.www.s81c.com/common/v18/js/www.js\"></script>",
-            "\t\t<script src=\"https://1.www.s81c.com/common/v19a/js/www.js\"></script>",
             "\t\t<script src=\"https://1.www.s81c.com/common/stats/ida_stats.js\"></script>",
+            "\t\t<link href=\"//1.www.s81c.com/common/v18/css/grid-fluid.css\" rel=\"stylesheet\">",
+            "\t\t<script>digitalData = {",
+            "\t\t\t\"page\": {",
+            "\t\t\t\t\"category\": {",
+            "\t\t\t\t\t\"primaryCategory\": \"\"",
+            "\t\t\t\t},",
+            "\t\t\t\"pageInfo\": {",
+            "\t\t\t\t\"language\": \"LC-CC\",",
+            "\t\t\t\t\"country\": \"CC\",",
+            "\t\t\t\t\"publisher\": \"IBM Corporation\",",
+            "\t\t\t\t\"version\": \"v19a\",",
+            "\t\t\t\t\"ibm\": {",
+            "\t\t\t\t\t\"contentDelivery\": \"\",",
+            "\t\t\t\t\t\"contentProducer\": \"\",",
+            "\t\t\t\t\t\"owner\": \"Some Person/City/IBM\",",
+            "\t\t\t\t\t\"siteID\": \"\",",
+            "\t\t\t\t\t\"contactModuleConfiguration\": {",
+            "\t\t\t\t\t\t\"contactInformationBundleKey\": {",
+            "\t\t\t\t\t\t\t\"focusArea\": \"\",",
+            "\t\t\t\t\t\t\t\"languageCode\": \"LC\",",
+            "\t\t\t\t\t\t\t\"regionCode\": \"CC\"",
+            "\t\t\t\t\t\t},",
+            "\t\t\t\t\t\t\"contactModuleTranslationKey\": {",
+            "\t\t\t\t\t\t\t\"languageCode\": \"LC\",",
+            "\t\t\t\t\t\t\t\"regionCode\": \"CC\"",
+            "\t\t\t\t\t\t}",
+            "\t\t\t\t\t\t},",
+            "\t\t\t\t\t\"config\": {",
+            "\t\t\t\t\t\t\"masthead\": {",
+            "\t\t\t\t\t\t\t\"type\": \"default\"",
+            "\t\t\t\t\t\t},",
+            "\t\t\t\t\t\t\"footer\": {",
+            "\t\t\t\t\t\t\t\"type\": \"default\"",
+            "\t\t\t\t\t\t},",
+            "\t\t\t\t\t}",
+            "\t\t\t\t},",
+            "\t\t\t\t\"publishDate\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\",",
+            "\t\t\t\t\"effectiveDate\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\",",
+            "\t\t\t\t\"expiryDate\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+            "\t\t\t\t},",
+            "\t\t\t},",
+            "\t\t}</script>",
             "\t\t<title>${1:Title}</title>",
             "\t</head>",
             "\t<body id=\"ibm-com\" class=\"ibm-type\">",
@@ -41,7 +81,92 @@
             "\t</body>",
             "</html>"
         ],
-        "description": "HTML5 template which includes v19a styles and required page structure."
+        "description": "HTML5 template which includes v18 styles and required page structure."
+    },
+    "v19 HTML layout": {
+        "prefix": "!!ibm",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"LC\">",
+            "\t<head>",
+            "\t\t<meta charset=\"UTF-8\">",
+            "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">",
+            "\t\t<meta name=\"geo.country\" content=\"\" />",
+            "\t\t<link rel=\"canonical\" href=\"https://www.ibm.com/\" />",
+            "\t\t<meta name=\"robots\" content=\"index, follow\" />",
+            "\t\t<meta name=\"description\" content=\"\" />",
+            "\t\t<meta name=\"rights\" content=\"© Copyright IBM Corporation 2020\" />",
+            "\t\t<link rel=\"dns-prefetch\" href=\"//1.www.s81c.com\" />",
+            "\t\t<link rel=\"preconnect\" href=\"//1.www.s81c.com\" />",
+            "\t\t<link rel=\"stylesheet\" href=\"https://1.www.s81c.com/common/v18/css/www.css\">",
+            "\t\t<link rel=\"stylesheet\" href=\"https://1.www.s81c.com/common/v19a/css/www.css\">",
+            "\t\t<script src=\"https://1.www.s81c.com/common/v18/js/www.js\"></script>",
+            "\t\t<script src=\"https://1.www.s81c.com/common/v19a/js/www.js\"></script>",
+            "\t\t<script src=\"https://1.www.s81c.com/common/stats/ida_stats.js\"></script>",
+            "\t\t<script>digitalData = {",
+            "\t\t\t\"page\": {",
+            "\t\t\t\t\"category\": {",
+            "\t\t\t\t\t\"primaryCategory\": \"\"",
+            "\t\t\t\t},",
+            "\t\t\t\"pageInfo\": {",
+            "\t\t\t\t\"language\": \"LC-CC\",",
+            "\t\t\t\t\"country\": \"CC\",",
+            "\t\t\t\t\"publisher\": \"IBM Corporation\",",
+            "\t\t\t\t\"version\": \"v19a\",",
+            "\t\t\t\t\"ibm\": {",
+            "\t\t\t\t\t\"contentDelivery\": \"\",",
+            "\t\t\t\t\t\"contentProducer\": \"\",",
+            "\t\t\t\t\t\"owner\": \"Some Person/City/IBM\",",
+            "\t\t\t\t\t\"siteID\": \"\",",
+            "\t\t\t\t\t\"contactModuleConfiguration\": {",
+            "\t\t\t\t\t\t\"contactInformationBundleKey\": {",
+            "\t\t\t\t\t\t\t\"focusArea\": \"\",",
+            "\t\t\t\t\t\t\t\"languageCode\": \"LC\",",
+            "\t\t\t\t\t\t\t\"regionCode\": \"CC\"",
+            "\t\t\t\t\t\t},",
+            "\t\t\t\t\t\t\"contactModuleTranslationKey\": {",
+            "\t\t\t\t\t\t\t\"languageCode\": \"LC\",",
+            "\t\t\t\t\t\t\t\"regionCode\": \"CC\"",
+            "\t\t\t\t\t\t}",
+            "\t\t\t\t\t\t},",
+            "\t\t\t\t\t\"config\": {",
+            "\t\t\t\t\t\t\"masthead\": {",
+            "\t\t\t\t\t\t\t\"type\": \"default\"",
+            "\t\t\t\t\t\t},",
+            "\t\t\t\t\t\t\"footer\": {",
+            "\t\t\t\t\t\t\t\"type\": \"default\"",
+            "\t\t\t\t\t\t},",
+            "\t\t\t\t\t}",
+            "\t\t\t\t},",
+            "\t\t\t\t\"publishDate\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\",",
+            "\t\t\t\t\"effectiveDate\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\",",
+            "\t\t\t\t\"expiryDate\": \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+            "\t\t\t\t},",
+            "\t\t\t},",
+            "\t\t}</script>",
+            "\t\t<title>${1:Title}</title>",
+            "\t</head>",
+            "\t<body id=\"ibm-com\" class=\"ibm-type\">",
+            "\t\t<div id=\"ibm-top\" class=\"ibm-landing-page\">",
+            "\t\t\t<div id=\"ibm-content-wrapper\">",
+            "\t\t\t\t<main role=\"main\" aria-labelledby=\"ibm-pagetitle-h1\">",
+            "\t\t\t\t\t<div id=\"ibm-pcon\">",
+            "\t\t\t\t\t\t<div id=\"ibm-content\">",
+            "\t\t\t\t\t\t\t<div id=\"ibm-content-body\">",
+            "\t\t\t\t\t\t\t\t<div id=\"ibm-content-main\">",
+            "\t\t\t\t\t\t\t\t\t$0",
+            "\t\t\t\t\t\t\t\t</div>",
+            "\t\t\t\t\t\t\t</div>",
+            "\t\t\t\t\t\t</div>",
+            "\t\t\t\t\t</div>",
+            "\t\t\t\t</main>",
+            "\t\t\t</div>",
+            "\t\t</div>",
+            "\t</body>",
+            "</html>"
+        ],
+        "description": "HTML5 template which includes v19 styles and required page structure."
     },
     "Back-to-top Button": {
         "prefix": "!ibmbtt",
@@ -55,6 +180,110 @@
             "</script>"
         ],
         "description": "v19a Back to top"
+    },
+    "v18 Band with 6 grid": {
+        "prefix": "!ibmb",
+        "body": [
+            "<div class=\"ibm-band\">",
+            "\t<div class=\"ibm-columns\">",
+            "\t\t<div class=\"ibm-col-1-1\">",
+            "\t\t\t$1",
+            "\t\t</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v18 Band with columns"
+    },
+    "v18 6-col grid": {
+        "prefix": "!ibmsgrd",
+        "body": [
+            "<div class=\"ibm-columns\">",
+            "\t<div class=\"ibm-col-1-1\">",
+            "\t\t$1",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v18 6-col grid"
+    },
+    "v18 12-col grid": {
+        "prefix": "!ibmtgrd",
+        "body": [
+            "$BLOCK_COMMENT_START Requires grid-fluid.css in headerBLOCK_COMMENT_END",
+            "$BLOCK_COMMENT_START <link href=\"//1.www.s81c.com/common/v18/css/grid-fluid.css\" rel=\"stylesheet\"> $BLOCK_COMMENT_END",
+            "<div class=\"ibm-fluid\">",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v18 12-col grid"
+    },
+    "v18 12-col grid with same height": {
+        "prefix": "!ibmftgrd",
+        "body": [
+            "$BLOCK_COMMENT_START Requires grid-fluid.css in headerBLOCK_COMMENT_END",
+            "$BLOCK_COMMENT_START <link href=\"//1.www.s81c.com/common/v18/css/grid-fluid.css\" rel=\"stylesheet\"> $BLOCK_COMMENT_END",
+            "<div class=\"ibm-fluid ibm-flex ibm-flex--wrap\">",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12 ibm-flex\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12 ibm-flex\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v18 12-col grid with same height"
+    },
+    "v18 fullwidth 12-col grid": {
+        "prefix": "!ibmftgrd",
+        "body": [
+            "$BLOCK_COMMENT_START Requires grid-fluid.css in headerBLOCK_COMMENT_END",
+            "$BLOCK_COMMENT_START <link href=\"//1.www.s81c.com/common/v18/css/grid-fluid.css\" rel=\"stylesheet\"> $BLOCK_COMMENT_END",
+            "<div class=\"ibm-fluid ibm-fullwidth\">",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v18 fullwidth 12-col grid"
+    },
+    "v18 seamless 12-col grid": {
+        "prefix": "!ibmstgrd",
+        "body": [
+            "$BLOCK_COMMENT_START Requires grid-fluid.css in headerBLOCK_COMMENT_END",
+            "$BLOCK_COMMENT_START <link href=\"//1.www.s81c.com/common/v18/css/grid-fluid.css\" rel=\"stylesheet\"> $BLOCK_COMMENT_END",
+            "<div class=\"ibm-fluid ibm-seamless\">",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v18 seamless 12-col grid"
+    },
+    "v18 fullwidth seamless 12-col grid": {
+        "prefix": "!ibmfstgrd",
+        "body": [
+            "$BLOCK_COMMENT_START Requires grid-fluid.css in headerBLOCK_COMMENT_END",
+            "$BLOCK_COMMENT_START <link href=\"//1.www.s81c.com/common/v18/css/grid-fluid.css\" rel=\"stylesheet\"> $BLOCK_COMMENT_END",
+            "<div class=\"ibm-fluid ibm-seamless ibm-fullwidth\">",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-col-12-6 ibm-col-medium-12-12\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v18 fullwidth seamless 12-col grid"
     },
     "v19a Basic grid": {
         "prefix": "!ibmgrd",
@@ -70,8 +299,8 @@
         ],
         "description": "v19a Basic grid"
     },
-    "v19a seamless grid": {
-        "prefix": "!ibmsgrd",
+    "v19a Basic seamless grid": {
+        "prefix": "!ibmgrd",
         "body": [
             "<div class=\"ibm-grid-container ibm-grid-seamless\">",
             "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-8\">",
@@ -82,13 +311,61 @@
             "\t</div>",
             "</div>"
         ],
-        "description": "v19a seamless grid"
+        "description": "v19a Basic grid"
+    },
+    "Basic Grid 2 columns": {
+        "prefix": "!ibmgrd2",
+        "body": [
+            "<div class=\"ibm-grid-container\">",
+            "\t<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a seamless grid 2 columns"
+    },
+    "Basic Grid 3 columns": {
+        "prefix": "!ibmgrd3",
+        "body": [
+            "<div class=\"ibm-grid-container\">",
+            "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-4\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-grid-col-sm-4-3 ibm-grid-col-lg-16-12\">",
+            "\t\t$2",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a seamless grid 2 columns"
+    },
+    "Grid 4 columns": {
+        "prefix": "!ibmgrd4",
+        "body": [
+            "<div class=\"ibm-grid-container\">",
+            "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-4\">",
+            "\t\t$1",
+            "\t</div>",
+            "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-4\">",
+            "\t\t$2",
+            "\t</div>",
+            "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-4\">",
+            "\t\t$3",
+            "\t</div>",
+            "\t<div class=\"ibm-grid-col-sm-4-1 ibm-grid-col-lg-16-4\">",
+            "\t\t$4",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "v19a seamless grid 3 columns"
     },
     "v19a Column": {
         "prefix": "!ibmcol",
         "body": [
-            "<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8\">",
-            "\t$1",
+            "<div class=\"ibm-grid-col-sm-$1-$2 ibm-grid-col-lg-$3-$4\">",
+            "\t$5",
             "</div>"
         ],
         "description": "v19a grid seamless column"
@@ -96,8 +373,8 @@
     "v19a Seamless column": {
         "prefix": "!ibmscol",
         "body": [
-            "<div class=\"ibm-grid-col-sm-4-2 ibm-grid-col-lg-16-8 ibm-grid-col-seamless\">",
-            "\t$1",
+            "<div class=\"ibm-grid-col-sm-$1-$2 ibm-grid-col-lg-$3-$4\">",
+            "\t$5",
             "</div>"
         ],
         "description": "v19a grid seamless column"
@@ -107,7 +384,7 @@
         "body": [
             "<p class=\"ibm-ind-link\"><a class=\"ibm-anchor-down-link\" href=\"#$1\">$2</a></p>"
         ],
-        "description": "v19a grid anchor link"
+        "description": "v19a anchor link"
     },
     "Link": {
         "prefix": "!ibml",
@@ -121,7 +398,7 @@
         "body": [
             "<p class=\"ibm-ind-link\"><a class=\"ibm-${1:icon}-link\" href=\"\">${2:Link}</a></p>"
         ],
-        "description": "v19a link"
+        "description": "v19a icon link"
     },
     "Attachment link": {
         "prefix": "!ibmatchl",
@@ -175,7 +452,7 @@
         "prefix": "!ibmbc",
         "body": [
             "<nav role=\"navigation\" aria-label=\"Breadcrumb\">",
-            "\t<ul class=\"ibm-padding-top-1 ibm-pb-0\" id=\"ibm-navigation-trail\" itemscope=\"\" itemtype=\"//schema.org/BreadcrumbList\">",
+            "\t<ul class=\"ibm-pt-1 ibm-pb-0\" id=\"ibm-navigation-trail\" itemscope=\"\" itemtype=\"//schema.org/BreadcrumbList\">",
             "\t\t<li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"//schema.org/ListItem\"><a itemprop=\"item\" href=\"javascript:;\"><span itemprop=\"name\">${1:Breadcrumb}</span></a><meta itemprop=\"position\" content=\"1\"></li>",
             "\t\t<li itemprop=\"itemListElement\" itemscope=\"\" itemtype=\"//schema.org/ListItem\"><a itemprop=\"item\" href=\"javascript:;\"><span itemprop=\"name\">${2:Breadcrumb 2}</span></a><meta itemprop=\"position\" content=\"2\"></li>",
             "\t</ul>",
@@ -271,10 +548,10 @@
             "\t\t<div class=\"ibm-grid-container ibm-alternate-background\">",
             "\t\t\t<div class=\"ibm-grid-col-sm-4-4\">",
             "\t\t\t\t<h1 class=\"ibm-h1 ibm-medium\">${1:Headline}</h1>",
-            "\t\t\t\t<h4 class=\"ibm-h4 ibm-padding-bottom-2\">${2:Subheadline}</h4>",
+            "\t\t\t\t<h4 class=\"ibm-h4 ibm-pb-2\">${2:Subheadline}</h4>",
             "\t\t\t\t<p class=\"ibm-button-link ibm-btn-row\">",
-            "\t\t\t\t\t<a href=\"\" class=\"ibm-btn-pri ibm-btn-white\">${3:PriBtnText}</a>",
-            "\t\t\t\t\t<a href=\"\" class=\"ibm-btn-sec ibm-btn-white\">${3:PriBtnText}</a>",
+            "\t\t\t\t\t<a href=\"\" class=\"ibm-btn-pri\">${3:PriBtnText}</a>",
+            "\t\t\t\t\t<a href=\"\" class=\"ibm-btn-sec\">${3:PriBtnText}</a>",
             "\t\t\t\t</p>",
             "\t\t\t</div>",
             "\t\t</div>",
@@ -339,12 +616,1219 @@
         "description": "v19a youtube video"
     },
     "Kaltura video": {
-        "prefix": "!ibmyv",
+        "prefix": "!ibmkv",
         "body": [
             "<div id=\"\" data-widget=\"videoplayer\" data-videoid=\"${1:KalturaId}\" data-videotype=\"kaltura\">",
             "\t<a href=\"\">Watch the video</a>",
             "</div>"
         ],
         "description": "v19a kaltura video"
+    },
+    "Watson twisty row": {
+        "prefix": "!ibmwtr",
+        "body": [
+            "<table class=\"ibm-no-highlight tabid\" width=\"100%\">",
+            "\t<tbody>",
+            "\t\t<tr class=\"pb-1 pt-1\">",
+            "\t\t\t<td width=\"20%\" class=\"ibm-type-c2 mb-0 ibm-pb-1 ibm-pt-1 frst\">${1:Date}</td>",
+            "\t\t\t<td width=\"80%\">",
+            "\t\t\t\t<div data-widget=\"showhide\" data-type=\"panel\" class=\"ibm-show-hide ibm-icon-right\">",
+            "\t\t\t\t\t<h2 class=\"ibm-type-c2 mb-0\"><strong>${1:Title}</strong></h2>",
+            "\t\t\t\t\t<div class=\"ibm-container-body\">",
+            "\t\t\t\t\t\t<p class=\"ibm-pb-1 ibm-type-c2 mb-0\">${2:Copy}</p>",
+            "\t\t\t\t\t</div>",
+            "\t\t\t\t</div>",
+            "\t\t\t</td>",
+            "\t\t</tr>",
+            "\t</tbody>",
+            "</table>"
+        ],
+        "description": "Watson table"
+    },
+    "Watson row": {
+        "prefix": "!ibmwr",
+        "body": [
+            "<div data-widget=\"showhide\" data-type=\"panel\" class=\"ibm-show-hide ibm-icon-right\">",
+            "\t<h2 class=\"ibm-type-c2 mb-0\"><strong>${1:Title}</strong></h2>",
+            "\t<div class=\"ibm-container-body\">",
+            "\t\t<p class=\"ibm-pb-1 ibm-type-c2 mb-0\">${2:Copy}</p>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Watson table row"
+    },
+    "Padding Bottom": {
+        "prefix": "pb",
+        "body": ["ibm-pb-${1|1,2,3,4,5,6,7,8,9,10,11,12|}"],
+        "descripbion": "Padding Bottom"
+    },
+    "Padding Bottom 0": {
+        "prefix": "pb0",
+        "body": ["ibm-pb-0"],
+        "descripbion": "Padding Bottom 0 [0px]"
+    },
+    "Padding Bottom 1": {
+        "prefix": "pb1",
+        "body": ["ibm-pb-1"],
+        "descripbion": "Padding Bottom 1 [8px]"
+    },
+    "Padding Bottom 2": {
+        "prefix": "pb2",
+        "body": ["ibm-pb-2"],
+        "descripbion": "Padding Bottom 2 [16px]"
+    },
+    "Padding Bottom 3": {
+        "prefix": "pb3",
+        "body": ["ibm-pb-3"],
+        "descripbion": "Padding Bottom 3 [24px]"
+    },
+    "Padding Bottom 4": {
+        "prefix": "pb4",
+        "body": ["ibm-pb-4"],
+        "descripbion": "Padding Bottom 4 32px]"
+    },
+    "Padding Bottom 5": {
+        "prefix": "pb5",
+        "body": ["ibm-pb-5"],
+        "descripbion": "Padding Bottom 5 [40px]"
+    },
+    "Padding Bottom 6": {
+        "prefix": "pb6",
+        "body": ["ibm-pb-6"],
+        "descripbion": "Padding Bottom 6 [48px]"
+    },
+    "Padding Bottom 7": {
+        "prefix": "pb7",
+        "body": ["ibm-pb-7"],
+        "descripbion": "Padding Bottom 7 [56px]"
+    },
+    "Padding Bottom 8": {
+        "prefix": "pb8",
+        "body": ["ibm-pb-8"],
+        "descripbion": "Padding Bottom 8 [64px]"
+    },
+    "Padding Bottom 9": {
+        "prefix": "pb9",
+        "body": ["ibm-pb-9"],
+        "descripbion": "Padding Bottom 9 [72px]"
+    },
+    "Padding Bottom 10": {
+        "prefix": "pb10",
+        "body": ["ibm-pb-10"],
+        "descripbion": "Padding Bottom 10 [80px]"
+    },
+    "Padding Bottom 11": {
+        "prefix": "pb11",
+        "body": ["ibm-pb-11"],
+        "descripbion": "Padding Bottom 11 [88px]"
+    },
+    "Padding Bottom 12": {
+        "prefix": "pb12",
+        "body": ["ibm-pb-12"],
+        "descripbion": "Padding Bottom 12 [96px]"
+    },
+    "Relative Padding Bottom": {
+        "prefix": "rpb",
+        "body": ["ibm-padding-bottom-r${1|1,2,3|}"],
+        "description": "Relative Padding Bottom"
+    },
+    "Relative Padding Bottom 1": {
+        "prefix": "rpb1",
+        "body": ["ibm-padding-bottom-1"],
+        "description": "Relative Padding Bottom 1 [2%]"
+    },
+    "Relative Padding Bottom 2": {
+        "prefix": "rpb2",
+        "body": ["ibm-padding-bottom-r2"],
+        "description": "Relative Padding Bottom 2 [5%]"
+    },
+    "Relative Padding Bottom 3": {
+        "prefix": "rpb3",
+        "body": ["ibm-padding-bottom-3"],
+        "description": "Relative Padding Bottom 3 [10%]"
+    },
+    "Padding Top": {
+        "prefix": "pt",
+        "body": ["ibm-pt-${1|1,2,3,4,5,6,7,8,9,10,11,12|}"],
+        "description": "Padding Top"
+    },
+    "Padding Top 0": {
+        "prefix": "pt0",
+        "body": ["ibm-pt-0"],
+        "description": "Padding Top 0 [0px]"
+    },
+    "Padding Top 1": {
+        "prefix": "pt1",
+        "body": ["ibm-pt-1"],
+        "description": "Padding Top 1 [8px]"
+    },
+    "Padding Top 2": {
+        "prefix": "pt2",
+        "body": ["ibm-pt-2"],
+        "description": "Padding Top 2 [16px]"
+    },
+    "Padding Top 3": {
+        "prefix": "pt3",
+        "body": ["ibm-pt-3"],
+        "description": "Padding Top 3 [24px]"
+    },
+    "Padding Top 4": {
+        "prefix": "pt4",
+        "body": ["ibm-pt-4"],
+        "description": "Padding Top 4 32px]"
+    },
+    "Padding Top 5": {
+        "prefix": "pt5",
+        "body": ["ibm-pt-5"],
+        "description": "Padding Top 5 [40px]"
+    },
+    "Padding Top 6": {
+        "prefix": "pt6",
+        "body": ["ibm-pt-6"],
+        "description": "Padding Top 6 [48px]"
+    },
+    "Padding Top 7": {
+        "prefix": "pt7",
+        "body": ["ibm-pt-7"],
+        "description": "Padding Top 7 [56px]"
+    },
+    "Padding Top 8": {
+        "prefix": "pt8",
+        "body": ["ibm-pt-8"],
+        "description": "Padding Top 8 [64px]"
+    },
+    "Padding Top 9": {
+        "prefix": "pt9",
+        "body": ["ibm-pt-9"],
+        "description": "Padding Top 9 [72px]"
+    },
+    "Padding Top 10": {
+        "prefix": "pt10",
+        "body": ["ibm-pt-10"],
+        "description": "Padding Top 10 [80px]"
+    },
+    "Padding Top 11": {
+        "prefix": "pt11",
+        "body": ["ibm-pt-11"],
+        "description": "Padding Top 11 [88px]"
+    },
+    "Padding Top 12": {
+        "prefix": "pt12",
+        "body": ["ibm-pt-12"],
+        "description": "Padding Top 12 [96px]"
+    },
+    "Relative Padding Top": {
+        "prefix": "rpt",
+        "body": ["ibm-padding-top-r${1|1,2,3|}"],
+        "description": "Relative Padding Top"
+    },
+    "Relative Padding Top 1": {
+        "prefix": "rpt1",
+        "body": ["ibm-padding-top-1"],
+        "description": "Relative Padding Top 1 [2%]"
+    },
+    "Relative Padding Top 2": {
+        "prefix": "rpt2",
+        "body": ["ibm-padding-top-r2"],
+        "description": "Relative Padding Top 2 [5%]"
+    },
+    "Relative Padding Top 3": {
+        "prefix": "rpt3",
+        "body": ["ibm-padding-top-3"],
+        "description": "Relative Padding Top 3 [10%]"
+    },
+    "Margin Bottom": {
+        "prefix": "mb",
+        "body": ["ibm-mb-${1|1,2,3,4,5,6,7,8,9,10,11,12|}"],
+        "description": "Margin Bottom"
+    },
+    "Margin Bottom 0": {
+        "prefix": "mb0",
+        "body": ["ibm-mb-0"],
+        "description": "Margin Bottom 0 [0px]"
+    },
+    "Margin Bottom 1": {
+        "prefix": "mb1",
+        "body": ["ibm-mb-1"],
+        "description": "Margin Bottom 1 [8px]"
+    },
+    "Margin Bottom 2": {
+        "prefix": "mb2",
+        "body": ["ibm-mb-2"],
+        "description": "Margin Bottom 2 [16px]"
+    },
+    "Margin Bottom 3": {
+        "prefix": "mb3",
+        "body": ["ibm-mb-3"],
+        "description": "Margin Bottom 3 [24px]"
+    },
+    "Margin Bottom 4": {
+        "prefix": "mb4",
+        "body": ["ibm-mb-4"],
+        "description": "Margin Bottom 4 32px]"
+    },
+    "Margin Bottom 5": {
+        "prefix": "mb5",
+        "body": ["ibm-mb-5"],
+        "description": "Margin Bottom 5 [40px]"
+    },
+    "Margin Bottom 6": {
+        "prefix": "mb6",
+        "body": ["ibm-mb-6"],
+        "description": "Margin Bottom 6 [48px]"
+    },
+    "Margin Bottom 7": {
+        "prefix": "mb7",
+        "body": ["ibm-mb-7"],
+        "description": "Margin Bottom 7 [56px]"
+    },
+    "Margin Bottom 8": {
+        "prefix": "mb8",
+        "body": ["ibm-mb-8"],
+        "description": "Margin Bottom 8 [64px]"
+    },
+    "Margin Bottom 9": {
+        "prefix": "mb9",
+        "body": ["ibm-mb-9"],
+        "description": "Margin Bottom 9 [72px]"
+    },
+    "Margin Bottom 10": {
+        "prefix": "mb10",
+        "body": ["ibm-mb-10"],
+        "description": "Margin Bottom 10 [80px]"
+    },
+    "Margin Bottom 11": {
+        "prefix": "mb11",
+        "body": ["ibm-mb-11"],
+        "description": "Margin Bottom 11 [88px]"
+    },
+    "Margin Bottom 12": {
+        "prefix": "mb12",
+        "body": ["ibm-mb-12"],
+        "descriptbion": "Margin Bottom 12 [96px]"
+    },
+    "Relative Margin Bottom": {
+        "prefix": "rmb",
+        "body": ["ibm-margin-top-r${1|1,2,3|}"],
+        "description": "Relative Margin Bottom"
+    },
+    "Relative Margin Bottom 1": {
+        "prefix": "rmb1",
+        "body": ["ibm-margin-top-1"],
+        "description": "Relative Margin Bottom 1 [2%]"
+    },
+    "Relative Margin Bottom 2": {
+        "prefix": "rmb2",
+        "body": ["ibm-margin-top-r2"],
+        "description": "Relative Margin Bottom 2 [5%]"
+    },
+    "Relative Margin Bottom 3": {
+        "prefix": "mt3",
+        "body": ["ibm-margin-top-3"],
+        "description": "Relative Margin Bottom 3 [10%]"
+    },
+    "Margin Top": {
+        "prefix": "mt",
+        "body": ["ibm-mt-${1|1,2,3,4,5,6,7,8,9,10,11,12|}"],
+        "description": "Margin Top"
+    },
+    "Margin Top 0": {
+        "prefix": "mt0",
+        "body": ["ibm-mt-0"],
+        "description": "Margin Top 0 [0px]"
+    },
+    "Margin Top 1": {
+        "prefix": "mt1",
+        "body": ["ibm-mt-1"],
+        "description": "Margin Top 1 [8px]"
+    },
+    "Margin Top 2": {
+        "prefix": "mt2",
+        "body": ["ibm-mt-2"],
+        "description": "Margin Top 2 [16px]"
+    },
+    "Margin Top 3": {
+        "prefix": "mt3",
+        "body": ["ibm-mt-3"],
+        "description": "Margin Top 3 [24px]"
+    },
+    "Margin Top 4": {
+        "prefix": "mt4",
+        "body": ["ibm-mt-4"],
+        "description": "Margin Top 4 32px]"
+    },
+    "Margin Top 5": {
+        "prefix": "mt5",
+        "body": ["ibm-mt-5"],
+        "description": "Margin Top 5 [40px]"
+    },
+    "Margin Top 6": {
+        "prefix": "mt6",
+        "body": ["ibm-mt-6"],
+        "description": "Margin Top 6 [48px]"
+    },
+    "Margin Top 7": {
+        "prefix": "mt7",
+        "body": ["ibm-mt-7"],
+        "description": "Margin Top 7 [56px]"
+    },
+    "Margin Top 8": {
+        "prefix": "mt8",
+        "body": ["ibm-mt-8"],
+        "description": "Margin Top 8 [64px]"
+    },
+    "Margin Top 9": {
+        "prefix": "mt9",
+        "body": ["ibm-mt-9"],
+        "description": "Margin Top 9 [72px]"
+    },
+    "Margin Top 10": {
+        "prefix": "mt10",
+        "body": ["ibm-mt-10"],
+        "description": "Margin Top 10 [80px]"
+    },
+    "Margin Top 11": {
+        "prefix": "mt11",
+        "body": ["ibm-mt-11"],
+        "description": "Margin Top 11 [88px]"
+    },
+    "Margin Top 12": {
+        "prefix": "mt12",
+        "body": ["ibm-mt-12"],
+        "descriptbion": "Margin Top 12 [96px]"
+    },
+    "Relative Margin Top": {
+        "prefix": "rmt",
+        "body": ["ibm-margin-top-r${1|1,2,3|}"],
+        "description": "Relative Margin Top"
+    },
+    "Relative Margin Top 1": {
+        "prefix": "rmt1",
+        "body": ["ibm-margin-top-1"],
+        "description": "Margin Top 1 [2%]"
+    },
+    "Relative Margin Top 2": {
+        "prefix": "rmt2",
+        "body": ["ibm-margin-margin-top-r2"],
+        "description": "Relative Margin Top 2 [5%]"
+    },
+    "Relative Margin Top 3": {
+        "prefix": "mt3",
+        "body": ["ibm-margin-top-3"],
+        "description": "Relative Margin Top 3 [10%]"
+    },
+    "BG Red": {
+        "prefix": "br",
+        "body": [
+            "ibm-background-red-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background red"
+    },
+    "BG Red 100": {
+        "prefix": "br100",
+        "body": ["ibm-background-red-100"],
+        "description": "#040001"
+    },
+    "BG Red 90": {
+        "prefix": "br90",
+        "body": ["ibm-background-red-90"],
+        "description": "#4c0a17"
+    },
+    "BG Red 80": {
+        "prefix": "br80",
+        "body": ["ibm-background-red-80"],
+        "description": "#6e0a1e"
+    },
+    "BG Red 70": {
+        "prefix": "br70",
+        "body": ["ibm-background-red-70"],
+        "description": "#8c101c"
+    },
+    "BG Red 60": {
+        "prefix": "br60",
+        "body": ["ibm-background-red-60"],
+        "description": "#ad1625"
+    },
+    "BG Red 50": {
+        "prefix": "br50",
+        "body": ["ibm-background-red-50"],
+        "description": "#e71d32"
+    },
+    "BG Red 40": {
+        "prefix": "br40",
+        "body": ["ibm-background-red-40"],
+        "description": "#ff5050"
+    },
+    "BG Red 30": {
+        "prefix": "br30",
+        "body": ["ibm-background-red-30"],
+        "description": "#ff7d87"
+    },
+    "BG Red 20": {
+        "prefix": "br20",
+        "body": ["ibm-background-red-20"],
+        "description": "#ffa5b4"
+    },
+    "BG Red 10": {
+        "prefix": "br10",
+        "body": ["ibm-background-red-10"],
+        "description": "#ffd2dd"
+    },
+    "BG Magenta": {
+        "prefix": "bm",
+        "body": [
+            "ibm-background-magenta-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background magenta"
+    },
+    "BG Magenta 100": {
+        "prefix": "bm100",
+        "body": ["ibm-background-magenta-100"],
+        "description": "#040102"
+    },
+    "BG Magenta 90": {
+        "prefix": "bm90",
+        "body": ["ibm-background-magenta-90"],
+        "description": "#3a0b2e"
+    },
+    "BG Magenta 80": {
+        "prefix": "bm80",
+        "body": ["ibm-background-magenta-80"],
+        "description": "#601146"
+    },
+    "BG Magenta 70": {
+        "prefix": "bm70",
+        "body": ["ibm-background-magenta-70"],
+        "description": "#7c1c58"
+    },
+    "BG Magenta 60": {
+        "prefix": "bm60",
+        "body": ["ibm-background-magenta-60"],
+        "description": "#a6266e"
+    },
+    "BG Magenta 50": {
+        "prefix": "bm50",
+        "body": ["ibm-background-magenta-50"],
+        "description": "#db2780"
+    },
+    "BG Magenta 40": {
+        "prefix": "bm40",
+        "body": ["ibm-background-magenta-40"],
+        "description": "#ff3ca0"
+    },
+    "BG Magenta 30": {
+        "prefix": "bm30",
+        "body": ["ibm-background-magenta-30"],
+        "description": "#ff71d4"
+    },
+    "BG Magenta 20": {
+        "prefix": "bm20",
+        "body": ["ibm-background-magenta-20"],
+        "description": "#ff9eee"
+    },
+    "BG Magenta 10": {
+        "prefix": "bm10",
+        "body": ["ibm-background-magenta-10"],
+        "description": "#ffd2ff"
+    },
+    "BG Purple": {
+        "prefix": "bp",
+        "body": [
+            "ibm-background-purple-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background purple"
+    },
+    "BG Purple 100": {
+        "prefix": "bp100",
+        "body": ["ibm-background-purple-100"],
+        "description": "#030103"
+    },
+    "BG Purple 90": {
+        "prefix": "bp90",
+        "body": ["ibm-background-purple-90"],
+        "description": "#311a41"
+    },
+    "BG Purple 80": {
+        "prefix": "bp80",
+        "body": ["ibm-background-purple-80"],
+        "description": "#412356"
+    },
+    "BG Purple 70": {
+        "prefix": "bp70",
+        "body": ["ibm-background-purple-70"],
+        "description": "#562f72"
+    },
+    "BG Purple 60": {
+        "prefix": "bp60",
+        "body": ["ibm-background-purple-60"],
+        "description": "#734098"
+    },
+    "BG Purple 50": {
+        "prefix": "bp50",
+        "body": ["ibm-background-purple-50"],
+        "description": "#9855d4"
+    },
+    "BG Purple 40": {
+        "prefix": "bp40",
+        "body": ["ibm-background-purple-40"],
+        "description": "#af6ee8"
+    },
+    "BG Purple 30": {
+        "prefix": "bp30",
+        "body": ["ibm-background-purple-30"],
+        "description": "#ba8ff7"
+    },
+    "BG Purple 20": {
+        "prefix": "bp20",
+        "body": ["ibm-background-purple-20"],
+        "description": "#d7aaff"
+    },
+    "BG Purple 10": {
+        "prefix": "bp10",
+        "body": ["ibm-background-purple-10"],
+        "description": "#eed2ff"
+    },
+    "BG Blue": {
+        "prefix": "bb",
+        "body": [
+            "ibm-background-blue-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background blue"
+    },
+    "BG Blue 100": {
+        "prefix": "bb100",
+        "body": ["ibm-background-blue-100"],
+        "description": "#010205"
+    },
+    "BG Blue 90": {
+        "prefix": "bb90",
+        "body": ["ibm-background-blue-90"],
+        "description": "#152935"
+    },
+    "BG Blue 80": {
+        "prefix": "bb80",
+        "body": ["ibm-background-blue-80"],
+        "description": "#1d3649"
+    },
+    "BG Blue 70": {
+        "prefix": "bb70",
+        "body": ["ibm-background-blue-70"],
+        "description": "#264a60"
+    },
+    "BG Blue 60": {
+        "prefix": "bb60",
+        "body": ["ibm-background-blue-60"],
+        "description": "#325c80"
+    },
+    "BG Blue 50": {
+        "prefix": "bb50",
+        "body": ["ibm-background-blue-50"],
+        "description": "#4178be"
+    },
+    "BG Blue 40": {
+        "prefix": "bb40",
+        "body": ["ibm-background-blue-40"],
+        "description": "#5596e6"
+    },
+    "BG Blue 30": {
+        "prefix": "bb30",
+        "body": ["ibm-background-blue-30"],
+        "description": "#5aaafa"
+    },
+    "BG Blue 20": {
+        "prefix": "bb20",
+        "body": ["ibm-background-blue-20"],
+        "description": "#7cc7ff"
+    },
+    "BG Blue 10": {
+        "prefix": "bb10",
+        "body": ["ibm-background-blue-10"],
+        "description": "#c0e6ff"
+    },
+    "BG Teal": {
+        "prefix": "bt",
+        "body": [
+            "ibm-background-teal-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background teal"
+    },
+    "BG Teal 100": {
+        "prefix": "bt100",
+        "body": ["ibm-background-teal-100"],
+        "description": "#000202"
+    },
+    "BG Teal 90": {
+        "prefix": "bt90",
+        "body": ["ibm-background-teal-90"],
+        "description": "#012b22"
+    },
+    "BG Teal 80": {
+        "prefix": "bt80",
+        "body": ["ibm-background-teal-80"],
+        "description": "#003c32"
+    },
+    "BG Teal 70": {
+        "prefix": "bt70",
+        "body": ["ibm-background-teal-70"],
+        "description": "#005448"
+    },
+    "BG Teal 60": {
+        "prefix": "bt60",
+        "body": ["ibm-background-teal-60"],
+        "description": "#006d5d"
+    },
+    "BG Teal 50": {
+        "prefix": "bt50",
+        "body": ["ibm-background-teal-50"],
+        "description": "#008571"
+    },
+    "BG Teal 40": {
+        "prefix": "bt40",
+        "body": ["ibm-background-teal-40"],
+        "description": "#00b4a0"
+    },
+    "BG Teal 30": {
+        "prefix": "bt30",
+        "body": ["ibm-background-teal-30"],
+        "description": "#41d6c3"
+    },
+    "BG Teal 20": {
+        "prefix": "bt20",
+        "body": ["ibm-background-teal-20"],
+        "description": "#6eedd8"
+    },
+    "BG Teal 10": {
+        "prefix": "bt10",
+        "body": ["ibm-background-teal-10"],
+        "description": "#a7fae6"
+    },
+    "BG Green": {
+        "prefix": "bgr",
+        "body": [
+            "ibm-background-green-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background green"
+    },
+    "BG Green 100": {
+        "prefix": "bgr100",
+        "body": ["ibm-background-green-100"],
+        "description": "#010200"
+    },
+    "BG Green 90": {
+        "prefix": "bgr90",
+        "body": ["ibm-background-green-90"],
+        "description": "#0c2808"
+    },
+    "BG Green 80": {
+        "prefix": "bgr80",
+        "body": ["ibm-background-green-80"],
+        "description": "#0a3c02"
+    },
+    "BG Green 70": {
+        "prefix": "bgr70",
+        "body": ["ibm-background-green-70"],
+        "description": "#144d14"
+    },
+    "BG Green 60": {
+        "prefix": "bgr60",
+        "body": ["ibm-background-green-60"],
+        "description": "#2d660a"
+    },
+    "BG Green 50": {
+        "prefix": "bgr50",
+        "body": ["ibm-background-green-50"],
+        "description": "#4b8400"
+    },
+    "BG Green 40": {
+        "prefix": "bgr40",
+        "body": ["ibm-background-green-40"],
+        "description": "#5aa700"
+    },
+    "BG Green 30": {
+        "prefix": "bgr30",
+        "body": ["ibm-background-green-30"],
+        "description": "#8cd211"
+    },
+    "BG Green 20": {
+        "prefix": "bgr20",
+        "body": ["ibm-background-green-20"],
+        "description": "#b4e051"
+    },
+    "BG Green 10": {
+        "prefix": "bgr10",
+        "body": ["ibm-background-green-10"],
+        "description": "#c8f08f"
+    },
+    "BG Gray": {
+        "prefix": "bg",
+        "body": [
+            "ibm-background-gray-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background gray"
+    },
+    "BG Gray 100": {
+        "prefix": "bg100",
+        "body": ["ibm-background-gray-100"],
+        "description": "#000000"
+    },
+    "BG Gray 90": {
+        "prefix": "bg90",
+        "body": ["ibm-background-gray-90"],
+        "description": "#121212"
+    },
+    "BG Gray 80": {
+        "prefix": "bg80",
+        "body": ["ibm-background-gray-80"],
+        "description": "#323232"
+    },
+    "BG Gray 70": {
+        "prefix": "bg70",
+        "body": ["ibm-background-gray-70"],
+        "description": "#464646"
+    },
+    "BG Gray 60": {
+        "prefix": "bg60",
+        "body": ["ibm-background-gray-60"],
+        "description": "#5a5a5a"
+    },
+    "BG Gray 50": {
+        "prefix": "bg50",
+        "body": ["ibm-background-gray-50"],
+        "description": "#777677"
+    },
+    "BG Gray 40": {
+        "prefix": "bg40",
+        "body": ["ibm-background-gray-40"],
+        "description": "#959595"
+    },
+    "BG Gray 30": {
+        "prefix": "bg30",
+        "body": ["ibm-background-gray-30"],
+        "description": "#aeaeae"
+    },
+    "BG Gray 20": {
+        "prefix": "bg20",
+        "body": ["ibm-background-gray-20"],
+        "description": "#c7c7c7"
+    },
+    "BG Gray 10": {
+        "prefix": "bg10",
+        "body": ["ibm-background-gray-10"],
+        "description": "#e0e0e0"
+    },
+    "BG Cool Gray": {
+        "prefix": "bcg",
+        "body": [
+            "ibm-background-cool-gray-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background cool gray"
+    },
+    "BG Cool Gray 100": {
+        "prefix": "bcg100",
+        "body": ["ibm-background-cool-gray-100"],
+        "description": "#000203"
+    },
+    "BG Cool Gray 90": {
+        "prefix": "bcg90",
+        "body": ["ibm-background-cool-gray-90"],
+        "description": "#0d1111"
+    },
+    "BG Cool Gray 80": {
+        "prefix": "bcg80",
+        "body": ["ibm-background-cool-gray-80"],
+        "description": "#323c3c"
+    },
+    "BG Cool Gray 70": {
+        "prefix": "bcg70",
+        "body": ["ibm-background-cool-gray-70"],
+        "description": "#3c4646"
+    },
+    "BG Cool Gray 60": {
+        "prefix": "bcg60",
+        "body": ["ibm-background-cool-gray-60"],
+        "description": "#586262"
+    },
+    "BG Cool Gray 50": {
+        "prefix": "bcg50",
+        "body": ["ibm-background-cool-gray-50"],
+        "description": "#6d7777"
+    },
+    "BG Cool Gray 40": {
+        "prefix": "bcg40",
+        "body": ["ibm-background-cool-gray-40"],
+        "description": "#959f9f"
+    },
+    "BG Cool Gray 30": {
+        "prefix": "bcg30",
+        "body": ["ibm-background-cool-gray-30"],
+        "description": "#aeb8b8"
+    },
+    "BG Cool Gray 20": {
+        "prefix": "bcg20",
+        "body": ["ibm-background-cool-gray-20"],
+        "description": "#c8d2d2"
+    },
+    "BG Cool Gray 10": {
+        "prefix": "bcg10",
+        "body": ["ibm-background-cool-gray-10"],
+        "description": "#dfe9e9"
+    },
+    "BG Warm Gray": {
+        "prefix": "bwg",
+        "body": [
+            "ibm-background-warm-gray-${1|10,20,30,40,50,60,70,80,90,100|}"
+        ],
+        "description": "Background warm gray"
+    },
+    "BG Warm Gray 100": {
+        "prefix": "bwg100",
+        "body": ["ibm-background-warm-gray-100"],
+        "description": "#030000"
+    },
+    "BG Warm Gray 90": {
+        "prefix": "bwg90",
+        "body": ["ibm-background-warm-gray-90"],
+        "description": "#1a1314"
+    },
+    "BG Warm Gray 80": {
+        "prefix": "bwg80",
+        "body": ["ibm-background-warm-gray-80"],
+        "description": "#3c3232"
+    },
+    "BG Warm Gray 70": {
+        "prefix": "bwg70",
+        "body": ["ibm-background-warm-gray-70"],
+        "description": "#504646"
+    },
+    "BG Warm Gray 60": {
+        "prefix": "bwg60",
+        "body": ["ibm-background-warm-gray-60"],
+        "description": "#645a5a"
+    },
+    "BG Warm Gray 50": {
+        "prefix": "bwg50",
+        "body": ["ibm-background-warm-gray-50"],
+        "description": "#7d7373"
+    },
+    "BG Warm Gray 40": {
+        "prefix": "bwg40",
+        "body": ["ibm-background-warm-gray-40"],
+        "description": "#9e9494"
+    },
+    "BG Warm Gray 30": {
+        "prefix": "bwg30",
+        "body": ["ibm-background-warm-gray-30"],
+        "description": "#b8aeae"
+    },
+    "BG Warm Gray 20": {
+        "prefix": "bwg20",
+        "body": ["ibm-background-warm-gray-20"],
+        "description": "#d0c7c7"
+    },
+    "BG Warm Gray 10": {
+        "prefix": "bwg10",
+        "body": ["ibm-background-warm-gray-10"],
+        "description": "#e9e0e0"
+    },
+    "BG Black Core": {
+        "prefix": "bbc",
+        "body": ["ibm-background-black-core"],
+        "description": "#000000"
+    },
+    "BG White Core": {
+        "prefix": "bwc",
+        "body": ["ibm-background-white-core"],
+        "description": "#ffffff"
+    },
+    "BG Yellow 20": {
+        "prefix": "by",
+        "body": ["ibm-background-yellow-20"],
+        "description": "#fdd600"
+    },
+    "BG Orange 40": {
+        "prefix": "bo",
+        "body": ["ibm-background-orange-40"],
+        "description": "#ff5003"
+    },
+    "BG Blue 60 alpha": {
+        "prefix": "bb60a",
+        "body": ["ibm-background-blue-60-alpha"],
+        "description": "#0062ff"
+    },
+    "BG Blue 60 hover alpha": {
+        "prefix": "bbh60a",
+        "body": ["ibm-background-blue-60-hover-alpha"],
+        "description": "#0354e9"
+    },
+    "BG Blue 70 alpha": {
+        "prefix": "bb70a",
+        "body": ["ibm-background-blue-70-alpha"],
+        "description": "#054ada"
+    },
+    "Text color default": {
+        "prefix": "tcd",
+        "body": ["ibm-textcolor-default"],
+        "description": "Text color default"
+    },
+    "Text color link": {
+        "prefix": "tcl",
+        "body": ["ibm-linkcolor-default"],
+        "description": "Text color link"
+    },
+    "Text color blue": {
+        "prefix": "tcb",
+        "body": ["ibm-textcolor-blue-${1|30,40,50,60|}"],
+        "description": "Text color blue"
+    },
+    "Text color blue 30": {
+        "prefix": "tcb30",
+        "body": ["ibm-textcolor-blue-30"],
+        "description": "#5AAAFA"
+    },
+    "Text color blue 40": {
+        "prefix": "tcb40",
+        "body": ["ibm-textcolor-blue-40"],
+        "description": "#5596E6"
+    },
+    "Text color blue 50": {
+        "prefix": "tcb50",
+        "body": ["ibm-textcolor-blue-50"],
+        "description": "#4178BE"
+    },
+    "Text color blue 60": {
+        "prefix": "tcb60",
+        "body": ["ibm-textcolor-blue-60"],
+        "description": "#325C80"
+    },
+    "Text color gray": {
+        "prefix": "tcg",
+        "body": ["ibm-textcolor-gray-${1|30,40,50,60,80|}"],
+        "description": "Text color gray"
+    },
+    "Text color gray 30": {
+        "prefix": "tcg30",
+        "body": ["ibm-textcolor-blugraye-30"],
+        "description": "#AEAEAE"
+    },
+    "Text color gray 40": {
+        "prefix": "tcg40",
+        "body": ["ibm-textcolor-gray-40"],
+        "description": "#959595"
+    },
+    "Text color gray 50": {
+        "prefix": "tcg50",
+        "body": ["ibm-textcolor-gray-50"],
+        "description": "#777677"
+    },
+    "Text color gray 60": {
+        "prefix": "tcg60",
+        "body": ["ibm-textcolor-gray-60"],
+        "description": "#5A5A5A"
+    },
+    "Text color gray 80": {
+        "prefix": "tcg80",
+        "body": ["ibm-textcolor-gray-80"],
+        "description": "#323232"
+    },
+    "Text color green": {
+        "prefix": "tcgr",
+        "body": ["ibm-textcolor-green-${1|30,40,50,60|}"],
+        "description": "Text color green"
+    },
+    "Text color green 30": {
+        "prefix": "tcgr30",
+        "body": ["ibm-textcolor-green-30"],
+        "description": "#8CD211"
+    },
+    "Text color green 40": {
+        "prefix": "tcgr40",
+        "body": ["ibm-textcolor-green-40"],
+        "description": "#5AA700"
+    },
+    "Text color green 50": {
+        "prefix": "tcgr50",
+        "body": ["ibm-textcolor-green-50"],
+        "description": "#4B8400"
+    },
+    "Text color green 60": {
+        "prefix": "tcgr60",
+        "body": ["ibm-textcolor-green-60"],
+        "description": "#2D660A"
+    },
+    "Text color magenta": {
+        "prefix": "tcm",
+        "body": ["ibm-textcolor-magenta-${1|20,30,50,60|}"],
+        "description": "Text color magenta"
+    },
+    "Text color magenta 20": {
+        "prefix": "tcm20",
+        "body": ["ibm-textcolor-magenta-20"],
+        "description": "#FF9EEE"
+    },
+    "Text color magenta 30": {
+        "prefix": "tcm30",
+        "body": ["ibm-textcolor-magenta-30"],
+        "description": "#FF71D4"
+    },
+    "Text color magenta 50": {
+        "prefix": "tcm50",
+        "body": ["ibm-textcolor-magenta-50"],
+        "description": "#DB2780"
+    },
+    "Text color magenta 60": {
+        "prefix": "tcm60",
+        "body": ["ibm-textcolor-magenta-60"],
+        "description": "#A6266E"
+    },
+    "Text color orange": {
+        "prefix": "tco",
+        "body": ["ibm-textcolor-orange-${1|30,40,50,60|}"],
+        "description": "Text color orange"
+    },
+    "Text color orange 30": {
+        "prefix": "tco30",
+        "body": ["ibm-textcolor-orange-30"],
+        "description": "#FF7832"
+    },
+    "Text color orange 40": {
+        "prefix": "tco40",
+        "body": ["ibm-textcolor-orange-40"],
+        "description": "#FF5003"
+    },
+    "Text color orange 50": {
+        "prefix": "tco50",
+        "body": ["ibm-textcolor-orange-50"],
+        "description": "#D74108"
+    },
+    "Text color orange 60": {
+        "prefix": "tco60",
+        "body": ["ibm-textcolor-orange-60"],
+        "description": "#A53725"
+    },
+    "Text color purple": {
+        "prefix": "tco",
+        "body": ["ibm-textcolor-purple-${1|20,30,50,60|}"],
+        "description": "Text color purple"
+    },
+    "Text color purple 20": {
+        "prefix": "tco30",
+        "body": ["ibm-textcolor-purple-20"],
+        "description": "#D7AAFF"
+    },
+    "Text color purple 30": {
+        "prefix": "tco40",
+        "body": ["ibm-textcolor-purple-30"],
+        "description": "#BA8FF7"
+    },
+    "Text color purple 50": {
+        "prefix": "tco50",
+        "body": ["ibm-textcolor-purple-50"],
+        "description": "#9855D4"
+    },
+    "Text color purple 60": {
+        "prefix": "tco60",
+        "body": ["ibm-textcolor-purple-60"],
+        "description": "#734098"
+    },
+    "Text color red": {
+        "prefix": "tcr",
+        "body": ["ibm-textcolor-red-${1|30,40,50,60|}"],
+        "description": "Text color red"
+    },
+    "Text color red 30": {
+        "prefix": "tcr30",
+        "body": ["ibm-textcolor-red-30"],
+        "description": "#FF7D87"
+    },
+    "Text color red 40": {
+        "prefix": "tcr40",
+        "body": ["ibm-textcolor-red-40"],
+        "description": "#FF5050"
+    },
+    "Text color red 50": {
+        "prefix": "tcr50",
+        "body": ["ibm-textcolor-red-50"],
+        "description": "#E71D32"
+    },
+    "Text color red 60": {
+        "prefix": "tcr60",
+        "body": ["ibm-textcolor-red-60"],
+        "description": "#AD1625"
+    },
+    "Text color teal": {
+        "prefix": "tct",
+        "body": ["ibm-textcolor-teal-${1|30,40,50,60|}"],
+        "description": "Text color teal"
+    },
+    "Text color teal 30": {
+        "prefix": "tct30",
+        "body": ["ibm-textcolor-teal-30"],
+        "description": "#41D6C3"
+    },
+    "Text color teal 40": {
+        "prefix": "tct40",
+        "body": ["ibm-textcolor-teal-40"],
+        "description": "#00B4A0"
+    },
+    "Text color teal 50": {
+        "prefix": "tct50",
+        "body": ["ibm-textcolor-teal-50"],
+        "description": "#008571"
+    },
+    "Text color teal 60": {
+        "prefix": "tct60",
+        "body": ["ibm-textcolor-teal-60"],
+        "description": "#006D5D"
+    },
+    "Text color white core": {
+        "prefix": "tcw",
+        "body": ["ibm-textcolor-white-core"],
+        "description": "#FFFFFF"
+    },
+    "Text color yellow 10": {
+        "prefix": "tcy10",
+        "body": ["ibm-textcolor-yellow-10"],
+        "description": "#FDE876"
+    },
+    "Text color yellow 30": {
+        "prefix": "tcy30",
+        "body": ["ibm-textcolor-yellow-30"],
+        "description": "#FDE876"
+    },
+    "Non-breaking Space": {
+        "prefix": "nb",
+        "body": ["&nbsp;"],
+        "description": "&nbsp;"
+    },
+    "Rounded Double Quotation Marks": {
+        "prefix": "dq",
+        "body": ["“${0:Quote}”"],
+        "description": "“”"
+    },
+    "Rounded Single Quotation Marks": {
+        "prefix": "sq",
+        "body": ["‘ ${0:Quote}’"],
+        "description": "‘ ’"
+    },
+    "Rounded Apostrophe": {
+        "prefix": "'",
+        "body": ["&rsquo;"],
+        "description": "&rsquo;"
+    },
+    "Soft Hyphen": {
+        "prefix": "shy",
+        "body": ["&shy;"],
+        "description": "&shy;"
+    },
+    "N-Dash": {
+        "prefix": "--",
+        "body": ["–"],
+        "description": "–"
+    },
+    "M-Dash": {
+        "prefix": "---",
+        "body": ["—"],
+        "description": "—"
     }
+
 }

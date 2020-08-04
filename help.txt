@@ -1,0 +1,4 @@
+Publishing
+- update version in package.json
+- vsce package
+- push it to marketplace https://marketplace.visualstudio.com/manage/publishers/martinkocisek
